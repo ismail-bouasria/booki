@@ -18,6 +18,8 @@ body {
     justify-content: center;
 }
 
+
+
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -57,6 +59,36 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+
+/****** Header & Navbar ***********/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.logo{
+   width: 50%;
+  
+}
+
+nav {
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+   
+    text-decoration: none;
+    padding: 10px 40px;
+}
+nav a:hover {
+    border-top: 1px solid #0065FC;
+    color: #0065FC;
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
