@@ -90,11 +90,6 @@ nav a:hover {
     color: #0065FC;
 }
 
-.current-page {
-    border-top: 2px solid #0065FC;
-    color: #0065FC;
-}
-
 /****** Search And Filter ***********/
 
 .search-filter {
@@ -103,11 +98,17 @@ nav a:hover {
 }
 
 .search-filter p {
-    margin-top: -10px;
+    margin: 0px;
 }
 
 .search-filter p span {
-    border: 2px solid #D9D9D9;
+    text-align: center;
+}
+
+.search-filter p i {
+    height: 22px;
+    width: 22px;
+    border: 1px solid #D9D9D9;
     border-radius:50px;
 }
 /****** Search ******/
@@ -134,8 +135,8 @@ nav a:hover {
     width: 15px;
     text-align: center;
     background-color: #F2F2F2;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-radius: 0 10px 10px 0;
+  
 }
 
 .search-box input[type="text"] {
@@ -152,8 +153,7 @@ nav a:hover {
     color: #fff;
     text-align: center;
     padding: 11px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 0 10px 10px 0;
     cursor: pointer;
 }
 
