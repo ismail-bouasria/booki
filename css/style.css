@@ -297,27 +297,39 @@ nav a:hover {
 
 .activites-cards {
     display: flex;
+    gap : 30px;
     flex-wrap: wrap;
 
 }
 
-.activites-cards .card {
-    width: 297px;
+.card-activite {
+    background-color: white;
     border-radius: 20px;
+    width: 297px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
-.activites-cards a .card img {
-    max-width: 100%;
-    height: 270px;
-    object-fit: contain;
+.card-activite img {
+    width: 100%;
+    height: 380px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
+.card-activite div {
+    display: flex;
+    padding-left: 15px;
+}
+
+.card-activite div h3{
+    font-size: 16px;
+}
 /****** Footer *******/
 
 .footer-contenair {
     background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
+    gap:15px;
 }
 
 .footer-card {
@@ -327,6 +339,9 @@ nav a:hover {
     padding: 20px;
 }
 
+.footer-card h3 {
+    margin-bottom: 0px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
