@@ -493,6 +493,14 @@ nav a:hover {
 
     .filter-container section {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .filter-container button {
+        height: 50px;
+        font-size: 14px;
+        font-weight: bold;
+        align-items: center;
     }
 
 /****** Hebergements And Populaires ***********/
