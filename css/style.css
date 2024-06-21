@@ -156,7 +156,7 @@ nav a:hover {
     width: 120px;
 }
 
-.search-box button {
+.desk-button {
     border: none;
     background-color: var(--main-color);
     color: #fff;
@@ -170,7 +170,7 @@ nav a:hover {
     display: none;
 }
 
-.search-box button:hover {
+.desk-button:hover {
     background-color: #639df5;
 }
 
@@ -494,7 +494,7 @@ nav a:hover {
         font-size: 20px;
     }
 
-    .search-box button {
+    .desk-button {
         display: none;
     }
 
