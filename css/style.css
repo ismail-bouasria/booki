@@ -500,6 +500,7 @@ nav a:hover {
     }
 
     .mobil-button {
+        background-color: var(--main-color);
         display: block;
         position: absolute;
         right: -8px;
