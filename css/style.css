@@ -213,7 +213,7 @@ nav a:hover {
 }
 
 .infobar {
-    margin-bottom: 20px !important;
+    margin-bottom: 20px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -309,7 +309,7 @@ nav a:hover {
 /****** Activités ***********/
 
 .activites-contenair {
-    border-radius: 20px !important;
+    border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
 }
@@ -363,6 +363,8 @@ nav a:hover {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+     /****** hebergement & populaires ***********/
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -497,15 +499,15 @@ nav a:hover {
     }
 
     .mobil-button {
-        display: block !important;
+        display: block;
         position: absolute;
         right: -8px;
         top: 50%;
         transform: translateY(-50%);
-        padding: 15px !important;
-        height: 53px !important;
-        width: 53px !important;
-        border-radius: 15px !important;
+        padding: 15px;
+        height: 53px;
+        width: 53px;
+        border-radius: 15px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     }
 
@@ -532,9 +534,9 @@ nav a:hover {
     }
 
     .infobar {
-        display: flex !important;
-        margin: 10px !important;
-        gap: 10px !important;
+        display: flex;
+        margin: 10px;
+        gap: 10px;
     }
 
     /****** Hebergements And Populaires ***********/
@@ -565,7 +567,7 @@ nav a:hover {
     }
 
     .white-bg {
-        background-color: white !important;
+        background-color: white;
     }
 
     .hebergements {
