@@ -232,7 +232,7 @@ nav a:hover {
     width: 65%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
 }
 
 .hebergements div h2 {
@@ -393,7 +393,7 @@ nav a:hover {
     /****** Activités ***********/
 
     .activites-cards { 
-        gap : 25px;
+        gap : 13px;
     }
 
     .card-activite {
@@ -415,6 +415,11 @@ nav a:hover {
         padding: 0px; 
     }
 
+    .bolder {
+        margin: 15px;
+        font-weight: bold;
+        font-size: 18px;
+    }
     /****** Header & Navbar ***********/
 
     header{
@@ -462,7 +467,7 @@ nav a:hover {
     .search-box div {
        font-size: 18px;
         width: 45px;
-        height: 49px;
+        height: 51px;
         margin-left: 13px;
         padding: 0px;
         align-content: center;
@@ -578,6 +583,7 @@ nav a:hover {
     }
 
         /****** Footer ***********/
+
 
     .footer-contenair {
         flex-direction: column;
