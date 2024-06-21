@@ -115,6 +115,7 @@ nav a:hover {
 
 .search-filter p i {
     height: 22px;
+    align-content: center;
     width: 22px;
     border: 1px solid var(--filter-bg-color);
     border-radius: 50px;
@@ -501,6 +502,7 @@ nav a:hover {
 
     .mobil-button {
         background-color: var(--main-color);
+        border: none;
         display: block;
         position: absolute;
         right: -8px;
@@ -569,7 +571,7 @@ nav a:hover {
     }
 
     .white-bg {
-        background-color: white;
+        background-color: white !important;
     }
 
     .hebergements {
