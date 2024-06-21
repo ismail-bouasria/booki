@@ -346,7 +346,7 @@ nav a:hover {
 .footer-contenair {
     background-color: #F2F2F2;
     display: flex;
-    gap: 15px;
+    gap: 30px;
 }
 
 .footer-card {
@@ -369,6 +369,15 @@ nav a:hover {
      /****** hebergement & populaires ***********/
     .hebergements-and-populaires {
         flex-direction: column;
+    }
+
+
+    .hebergements-cards {
+        gap: 14px;
+    }
+
+    .hebergements-cards .card {
+        width: 216px;
     }
 
     .hebergements {
