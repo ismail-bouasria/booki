@@ -85,7 +85,7 @@ nav {
 }
 
 nav a {
-    padding: 10px 0px 0px;
+    padding: 12px 0px 0px;
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ nav a:hover {
 
 .search-filter {
     display: flex;
-    gap:35px;
+    gap: 35px;
     flex-direction: column;
 }
 
@@ -186,7 +186,7 @@ nav a:hover {
 .filter-container {
     display: flex;
     align-items: baseline;
-    gap: 10px;
+    gap: 15px;
 }
 
 .bolder {
@@ -194,10 +194,9 @@ nav a:hover {
     font-weight: bold;
 }
 
-.filter-container div {
+.filter-buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 20px;
 }
 
@@ -281,6 +280,12 @@ nav a:hover {
     align-items: center;
 }
 
+.populaires-cards {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
@@ -331,6 +336,8 @@ nav a:hover {
 
 }
 
+.activites-cards a {}
+
 .card-activite {
     background-color: white;
     border-radius: 20px;
@@ -377,13 +384,14 @@ nav a:hover {
 
     /****** Filter *******/
 
-    .filter-container div {
-       
-        gap: 10px;
+    .filter-container {
+        display: inline-grid;
+        align-items: baseline;
+        gap: 20px;
     }
 
     .filter-container button {
-        width: 145px;
+        width: 164px;
     }
 
     /****** hebergement & populaires ***********/
@@ -393,7 +401,7 @@ nav a:hover {
 
 
     .hebergements-cards {
-        gap: 14px;
+        gap: 15px;
     }
 
     .hebergements-cards .card {
@@ -410,13 +418,12 @@ nav a:hover {
     }
 
     .populaires-cards {
-        display: flex;
         flex-direction: row;
-        justify-content: space-between;
     }
 
+
     .populaires-cards a {
-        width: 30%;
+        width: 100%;
     }
 
     .populaires-cards .card-title {
@@ -430,7 +437,7 @@ nav a:hover {
     /****** Activités ***********/
 
     .activites-cards {
-        gap: 13px;
+        gap: 15px;
     }
 
     .card-activite {
@@ -483,6 +490,7 @@ nav a:hover {
     }
 
     nav a:hover {
+        padding: 0;
         border-top: none;
 
         border-bottom: solid 2px var(--main-color);
@@ -496,7 +504,7 @@ nav a:hover {
     }
 
     .search-filter h1 {
-        margin: 20px 20px 5px;
+        margin: 20px 13px 5px;
         font-size: 22px;
     }
 
@@ -505,7 +513,7 @@ nav a:hover {
     }
 
     .search-box {
-        position: relative;
+        text-align: center;
     }
 
     .search-box div {
@@ -519,7 +527,6 @@ nav a:hover {
 
     .search-box input[type="text"] {
         padding: 0px;
-        width: 280px;
         height: 49px;
         font-size: 18px;
     }
@@ -536,10 +543,7 @@ nav a:hover {
         background-color: var(--main-color);
         border: none;
         display: block;
-        position: absolute;
-        right: -8px;
-        top: 50%;
-        transform: translateY(-50%);
+        transform: translateX(-17%);
         padding: 15px;
         height: 53px;
         width: 53px;
@@ -562,9 +566,16 @@ nav a:hover {
         justify-content: center;
     }
 
+    .filter-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
     .filter-container button {
         height: 50px;
-        width: 163px;
+        width: 150.5px;
         font-size: 14px;
         font-weight: bold;
         align-items: center;
@@ -598,11 +609,6 @@ nav a:hover {
         gap: 15px
     }
 
-    .populaires-cards .card {
-        display: flex;
-        width: 335px;
-    }
-
     #white-bg {
         background-color: white;
     }
@@ -614,19 +620,30 @@ nav a:hover {
     }
 
     .hebergements-cards .card {
-        width: 335px;
+        width: 100%;
+    }
+
+
+    .hebergements-cards a {
+        width: 100%;
     }
 
     /****** Activites ***********/
-
-    .card-activite {
-        width: 355px;
-    }
 
     .activites-cards {
         flex-direction: column;
         align-content: center;
     }
+
+    .activites-cards a {
+        width: 100%;
+    }
+
+    .card-activite {
+        width: 100%;
+    }
+
+
 
     /****** Footer ***********/
 
