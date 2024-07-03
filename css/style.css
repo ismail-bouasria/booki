@@ -490,7 +490,7 @@ nav a:hover {
     }
 
     nav a:hover {
-        padding: 0;
+        padding: 15px;
         border-top: none;
 
         border-bottom: solid 2px var(--main-color);
